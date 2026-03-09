@@ -85,8 +85,8 @@ l2_model.fit(X_train, y_train)
 y_pred = l2_model.predict(X_test)
 
 # Evaluate the model
-print("Name:Balasurya S")
-print("Reg. No:212225100003")
+print("Name: HARI PRASATH M")
+print("Reg. No:212225100015")
 print("\nModel Evaluation:")
 print("Accuracy:", accuracy_score(y_test, y_pred))
 print("\nClassification Report:")
@@ -96,8 +96,8 @@ print(classification_report(y_test, y_pred))
 conf_matrix = confusion_matrix(y_test, y_pred)
 print(conf_matrix)
 
-print("Name: Balasurya S")
-print("Reg. No: 212225100003")
+print("Name: HARI PRASATH M")
+print("Reg. No: 212225100015")
 ```
 
 ## Output:
